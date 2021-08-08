@@ -6,6 +6,26 @@ h1 {
     color: black;
 }
 
+nav {
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+    border: black solid 1px;
+    background: black;
+    border-right-width: 5px;
+    float: right;
+}
+nav li {
+    display: inline-block;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background: #39150C url(assets/taco-bell-burrito-wrapper-blanket-3.jpg) no-repeat fixed top center;
     padding: 0;
@@ -40,7 +60,6 @@ header {
 }
 .dropdown{
     text-align: center;
-    display: inline-block;
     position: relative;
     float: right;
 }
