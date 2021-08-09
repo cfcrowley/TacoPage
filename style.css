@@ -71,3 +71,27 @@ header h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 150px;
 }
+footer {
+    background-color: honeydew;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    padding: 0 10px 10px;
+}
+
+.carousel-item,
+.carousel-inner,
+.carousel-inner img{
+    height: 30%;
+    width: auto;
+}
+
+#LazySusan {
+    height: 250%;
+    width: 80%;
+}
+
+section#Taco-Party h2{
+    text-shadow: 0px 0px 10px;
+    color: maroon;
+}
